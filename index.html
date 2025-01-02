@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muốn ăn lăn vô bếp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://png.pngtree.com/png-clipart/20190621/ourlarge/pngtree-chef-mascot-png-image_1508323.jpg" alt="Logo" width="100" height="110" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('hoc-nau-an')">Học Nấu Ăn</a></li>
+                <li><a href="#" onclick="showSection('hoc-pha-che')">Học Pha Chế</a></li>
+                <li><a href="#" onclick="showSection('hoc-nau-che')">Học Nấu Chè</a></li>
+                <li><a href="#" onclick="showSection('Khoa-day-nau-an')">Khoá dạy nấu ăn</a></li>
+                <hr>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="section-wrapper" id="home" style="display: block;">
+        <div class="intro-container">
+            <img src="https://png.pngtree.com/png-clipart/20190621/ourlarge/pngtree-chef-mascot-png-image_1508323.jpg" alt="Giới thiệu" class="intro-image" />
+        </div>
+        <div class="about-section">
+            <h3>Giới Thiệu Về Trang Web </h3>
+            <p>Chào mừng bạn đến với <strong>Trang Học Nấu Ăn & Pha Chế</strong>! Đây là nơi bạn có thể khám phá và học hỏi những kỹ năng nấu ăn, pha chế đồ uống và nấu chè thú vị. Với đa dạng khóa học và bài hướng dẫn chi tiết, chúng tôi cam kết mang đến cho bạn trải nghiệm học tập bổ ích và thú vị nhất.</p>
+            
+            <h4>Nội Dung Chương Trình Học:</h4>
+            <ul>
+                <li><strong>Học Nấu Ăn:</strong> Tìm hiểu cách chế biến những món ăn ngon từ các nguyên liệu đơn giản đến phức tạp.</li>
+                <li><strong>Học Pha Chế:</strong> Khám phá nghệ thuật pha chế đồ uống, từ những món truyền thống đến hiện đại.</li>
+                <li><strong>Học Nấu Chè:</strong> Học cách chế biến các loại chè thơm ngon, độc đáo từ khắp nơi trên đất nước.</li>
+                <li><strong>Các Khóa Học Online:</strong> Cung cấp khóa học linh hoạt, bạn có thể học mọi lúc, mọi nơi.</li>
+            </ul>
+    
+            <p>Chúng tôi luôn mong muốn nhận được ý kiến phản hồi và hỗ trợ bạn tốt nhất trong quá trình học. Mọi thông tin chi tiết xin vui lòng liên hệ với chúng tôi qua email: <strong>chubodoclabinhduong2007.vn@gmail.com</strong>. Đội ngũ của chúng tôi sẽ sẵn sàng hỗ trợ bạn bất cứ lúc nào!</p>
+            
+            <p>Cảm ơn bạn đã ghé thăm trang web của chúng tôi. Hy vọng bạn sẽ tìm thấy những thông tin hữu ích và có những trải nghiệm thú vị cùng chúng tôi!</p>
+        </div>
+    </div>
+    
+
+    <div class="section-wrapper" id="hoc-nau-an" style="display: none;">
+        <h2>Học Nấu Ăn</h2>
+        <div class="grid-container">
+            <div class="grid-item" onclick="openModal('Gà nướng', 'Nguyên liệu: \n- 1 con gà (khoảng 1.5 kg)\n- 3 tép tỏi (băm nhuyễn)\n- 2 quả ớt (băm nhuyễn)\n- 1 muỗng canh gia vị nướng (hoặc hạt nêm)\n- 2 muỗng canh dầu ăn\n- 1 muỗng cà phê tiêu\n- Một chút muối', '1.Rửa sạch gà, để ráo nước.\n2. Trộn tỏi, ớt, gia vị nướng, dầu ăn, tiêu, và muối để tạo thành hỗn hợp ướp.\n3. Ướp gà với hỗn hợp này trong ít nhất 1 giờ, tốt nhất là để qua đêm trong tủ lạnh.\n4. Nướng gà trên than hoa hoặc lò nướng cho đến khi chín vàng và có mùi thơm.\n5. Thưởng thức với rau sống và nước chấm.', 'https://youtu.be/t24VG2VmUTY?si=QzFHBMvr62p61gDZ')">
+                Gà nướng
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReaPeHpKdlEy5pNYGTlkIyJ-faewuKJXK1JQ&s" alt="Gà nướng muối ớt" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Phở', 'Nguyên liệu: \n- Bánh phở\n- Thịt bò hoặc gà\n- Nước dùng (xương, gia vị)\n- Hành lá, rau mùi', '1. Nấu nước dùng từ xương để có hương vị đậm đà.\n2. Chần bánh phở trong nước sôi.\n3. Cho bánh phở vào tô, thêm thịt, hành lá và nước dùng nóng lên trên.', 'https://youtu.be/c9GfHgMk1ac?si=At91I4Vw-9NmXaQo')">
+                Phở
+                <img src="https://media.istockphoto.com/id/527799355/vi/anh/ph%E1%BB%9F-b%C3%B2.jpg?s=1024x1024&w=is&k=20&c=Epbc38Mxm_JufWwfG6-u2S-fpnecd4puujPBiCqHMQM=" alt="Món phở" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Bánh mì', 'Nguyên liệu: \n- Bánh mì\n- Thịt (heo, bò, gà)\n- Pate\n- Dưa leo, rau sống\n- Nước sốt đặc biệt', '1. Nướng thịt cho chín.\n2. Xé bánh mì ra, cho pate và thịt vào.\n3. Thêm dưa leo, rau sống và nước sốt.', 'https://www.youtube.com/watch?v=Ps2fqiK2ykQ')">
+                Bánh mì
+                <img src="https://xebanhmithonhiky.com.vn/wp-content/uploads/2020/09/cach-lam-thit-ban-banh-mi-ngon.jpg" alt="Bánh mì" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Gỏi cuốn', 'Nguyên liệu: \n- Bánh tráng\n- Tôm, thịt\n- Bún, rau sống\n- Nước chấm (đậu phộng, nước mắm)', '1. Ngâm bánh tráng vào nước cho mềm.\n2. Đặt tôm, thịt, bún và rau lên bánh tráng.\n3. Cuộn lại và thưởng thức với nước chấm.', 'https://youtu.be/3mAwGlLSN0U?si=8NI10rA9x-V-LiGr')">
+                Gỏi cuốn
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKgSoN5vSGmuedDudJoe9FwuHxNm8Y1Rp2Hw&s" alt="Gỏi cuốn" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Bún chả', 'Nguyên liệu: \n- Bún\n- Thịt chả (thịt nướng)\n- Nước chấm chua ngọt\n- Rau sống', '1. Nướng thịt chả trên than hoa.\n2. Chuẩn bị bún và nước chấm.\n3. Kết hợp tất cả và thưởng thức.', 'https://youtu.be/tcbSm6nSUhM?si=MadiBHxz5LTdZ8dX')">
+                Bún chả
+                <img src="https://cdn.tgdd.vn/Files/2021/08/30/1378905/cach-lam-bun-cha-khong-can-nuong-ma-van-ngon-de-lam-tai-nha-202108301117307844.jpg" alt="Bún chả" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Bánh xèo', 'Nguyên liệu: \n- Bột làm bánh xèo\n- Tôm, thịt, giá đỗ\n- Rau sống\n- Nước chấm', '1. Pha bột và đổ vào chảo chiên giòn.\n2. Cho nhân vào và chiên cho đến khi chín.\n3. Thưởng thức với rau sống và nước chấm.', 'https://youtu.be/8w0psAnY6nE?si=88cOFHavBGibVLPP')">
+                Bánh xèo
+                <img src="https://i.ytimg.com/vi/hxI-i5jAeB8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBojnmiQAk3Xll7SREnHLzCPhVJ7w" alt="Bánh xèo" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Hủ tiếu', 'Nguyên liệu: \n- Mì hủ tiếu\n- Thịt, hải sản\n- Nước dùng\n- Rau sống', '1. Nấu nước dùng với thịt và hải sản.\n2. Chần mì và cho vào tô.\n3. Thêm nước dùng và rau sống.', 'https://youtu.be/fziqSn-xkws?si=J4OzgRUsBHUIwQVw')">
+                Hủ tiếu
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu9CxdVR_1ikrI3BOIVg3iC43I4YQmXkGOOg&s" alt="Hủ tiếu" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Mì Quảng', 'Nguyên liệu: \n- Mì Quảng\n- Thịt, tôm\n- Nước dùng\n- Đậu phộng, rau sống', '1. Nấu nước dùng từ thịt và tôm.\n2. Chần mì và để ráo.\n3. Kết hợp tất cả và thưởng thức.', 'https://youtu.be/TTWTwhV9Zx0?si=gg2aSUahKlRf9nZ9')">
+                Mì Quảng
+                <img src="https://nhuminhplazahotel.com/wp-content/uploads/2023/06/cach-nau-mi-quang-ga-ngon-1.jpg" alt="Mì Quảng" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Chả giò', 'Nguyên liệu: \n- Bánh tráng\n- Thịt, tôm, nấm\n- Rau củ', '1. Cuốn nhân vào bánh tráng.\n2. Chiên giòn cho đến khi vàng.\n3. Thưởng thức với nước chấm.', 'https://youtu.be/xXhweAEmOFs?si=7ZZdqbHMPAIX4Pcv')">
+                Chả giò
+                <img src="https://cdn.tgdd.vn/Files/2022/12/13/1495224/cach-lam-cha-gio-hai-san-trung-bac-thao-la-mieng-nham-nhi-cuoi-tuan-202212131038328678.jpg" alt="Chả giò" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Bánh canh', 'Nguyên liệu: \n- Bánh canh\n- Tôm, cua, thịt heo\n- Nước dùng', '1. Nấu nước dùng từ hải sản và thịt.\n2. Chần bánh canh và cho vào tô.\n3. Thêm nước dùng và thưởng thức.', 'https://youtu.be/r6yDDhB1isc?si=8hAk9U3xejIdieHC')">
+                Bánh canh
+                <img src="https://img-global.cpcdn.com/recipes/5dbc5f324f693fa8/400x400cq70/photo.jpg" alt="Bánh canh" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Xôi', 'Nguyên liệu: \n- Gạo nếp\n- Thịt gà, đậu xanh, hành phi', '1. Nấu xôi từ gạo nếp cho chín.\n2. Thêm thịt gà và đậu xanh vào.\n3. Thưởng thức với hành phi.', 'https://example.com/video11')">
+                Xôi
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSchkRqvQO00yF6jduYLssKHB3tAAtp9apU4w&s" alt="Xôi" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Bò kho', 'Nguyên liệu: \n- Thịt bò\n- Cà rốt, hành tây\n- Gia vị', '1. Hầm thịt bò với các gia vị cho mềm.\n2. Thêm cà rốt và hành tây vào.\n3. Thưởng thức với bánh mì hoặc bún.', 'https://youtu.be/wdvxHcaop9M?si=L9BKRohpLybIw997')">
+                Bò kho
+                <img src="https://cdn.tgdd.vn/Files/2018/12/13/1137914/cach-nau-bo-kho-tai-nha-bang-goi-gia-vi-bo-kho-don-gian-ngon-dung-dieu-202107211101519924.jpg" alt="Bò kho" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Tôm chiên xù', 'Nguyên liệu: \n- Tôm tươi\n- Bột chiên xù\n- Bột năng\n- Trứng gà\n- Gia vị: muối, tiêu', '1. Rửa sạch tôm, lột vỏ, giữ phần đuôi.\n2. Lăn tôm qua bột năng, nhúng vào trứng, rồi phủ bột chiên xù.\n3. Chiên tôm trong dầu nóng cho đến khi vàng giòn.', 'https://www.youtube.com/watch?v=2nT9_j7srz8')">
+                Tôm chiên xù
+                <img src="https://cdn.tgdd.vn/Files/2019/11/01/1214316/bi-quyet-lam-tom-chien-xu-gion-ngon-hap-dan-202110041604468435.jpg" alt="Tôm chiên xù" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Gà rán', 'Nguyên liệu: \n- Đùi hoặc cánh gà\n- Bột chiên giòn\n- Bột ngô\n- Trứng gà\n- Gia vị: muối, tiêu, tỏi băm', '1. Rửa sạch gà, ướp với muối, tiêu, và tỏi.\n2. Lăn gà qua bột ngô, nhúng vào trứng, rồi phủ bột chiên giòn.\n3. Chiên gà trong dầu nóng cho đến khi chín vàng giòn.', 'https://www.youtube.com/watch?v=rxgfxWwRVos')">
+                Gà rán
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoygmgFUDbaJjn1i9aqayMpJgUHrp2WW_xnQ&s" alt="Gà rán" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Khoai tây chiên', 'Nguyên liệu: \n- Khoai tây\n- Dầu ăn\n- Muối\n- (Tùy chọn) bột phô mai hoặc bột gia vị khác', '1. Gọt vỏ và cắt khoai tây thành que dài.\n2. Ngâm khoai tây trong nước lạnh khoảng 30 phút, sau đó vớt ra và lau khô.\n3. Chiên khoai tây trong dầu nóng cho đến khi vàng giòn.\n4. Rắc muối hoặc gia vị tùy thích khi khoai tây còn nóng.', 'https://www.youtube.com/watch?v=-iLSJTeQZL0')">
+                Khoai tây chiên
+                <img src="https://cdn2.fptshop.com.vn/unsafe/1920x0/filters:quality(100)/2023_9_28_638315154313184024_cach-lam-khoai-tay-chien-1.JPG" alt="Khoai tây chiên" style="width: 100%; height: 350px;">
+            </div>
+        </div>
+    </div>
+    <div class="section-wrapper" id="hoc-pha-che" style="display: none;">
+        <h2>Học Pha Chế</h2>
+        <div class="grid-container">
+            <div class="grid-item" onclick="openModal('Trà sữa', 'Nguyên liệu: \n- Trà (trà đen hoặc trà xanh)\n- Sữa đặc\n- Đường\n- Trân châu (nếu có)', '1. Nấu trà và để nguội.\n2. Thêm sữa đặc và đường vào trà.\n3. Cho trân châu vào ly và đổ trà lên.', 'https://youtu.be/TWiHYFFPSvQ?si=lrhJIseGkBzJcnEC')">
+                Trà sữa
+                <img src="https://trasuadodo.vn/wp-content/uploads/2022/09/cach-lam-tra-sua-hokkaido-09.jpg" alt="Trà sữa" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Sinh tố', 'Nguyên liệu: \n- Trái cây (chuối, dứa, xoài, v.v.)\n- Sữa hoặc nước\n- Đá viên', '1. Cho trái cây vào máy xay sinh tố.\n2. Thêm sữa hoặc nước và đá viên.\n3. Xay nhuyễn và thưởng thức.', 'https://youtu.be/jfg8o-5iFLQ?si=Vq8RquiX_t9C-yjt')">
+                Sinh tố
+                <img src="https://sunhouse.com.vn/pic/news/1383_sinh_to_ca_rot_bi_do_1.jpg" alt="Sinh tố" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Cà phê sữa đá', 'Nguyên liệu: \n- Cà phê nguyên chất\n- Sữa đặc\n- Đá viên', '1. Pha cà phê đậm đặc và cho vào ly.\n2. Thêm sữa đặc và khuấy đều.\n3. Thêm đá viên và thưởng thức.', 'https://youtu.be/GKZwezHDzzo?si=dkWeHvVYRou8XuhX')">
+                Cà phê sữa đá
+                <img src="https://pozaatea.vn/wp-content/uploads/2023/12/ca-phe-sua.jpg" alt="Cà phê sữa đá" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Nước dừa tươi', 'Nguyên liệu: \n- Dừa tươi', '1. Mở dừa và lấy nước bên trong.\n2. Thưởng thức lạnh.', 'https://youtu.be/msL8WaSEzRk?si=sPmxGVoTsH8DBdue')">
+                Nước dừa tươi
+                <img src="https://data-service.pharmacity.io/pmc-upload-media/production/pmc-ecm-asm/posts/uong-dua-1.webp" alt="Nước dừa tươi" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Trà trái cây', 'Nguyên liệu: \n- Trà (trà xanh hoặc trà đen)\n- Trái cây tươi (cam, chanh, kiwi, v.v.)', '1. Pha trà và để nguội.\n2. Thêm trái cây vào trà và thưởng thức.', 'https://youtu.be/dMJuLAxyXJk?si=rfoNbHixx4xMwDuz')">
+                Trà trái cây
+                <img src="https://xingfuvietnam.vn/wp-content/uploads/2023/03/tra-cam-nha-dam-FILEminimizer-1.jpg" alt="Trà trái cây" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Nước chanh tươi', 'Nguyên liệu: \n- Chanh\n- Đường\n- Nước\n- Đá viên', '1. Vắt nước chanh vào ly.\n2. Thêm đường và nước, khuấy đều.\n3. Thêm đá viên và thưởng thức.', 'https://youtu.be/Fd75pccnVao?si=YGbrf-h1oz5iIhUE')">
+                Nước chanh tươi
+                <img src="https://www.bartender.edu.vn/wp-content/uploads/2020/07/cach-pha-tra-chanh-khong-bi-dang.jpg" alt="Nước chanh tươi" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Nước mía', 'Nguyên liệu: \n- Mía\n- Đá viên', '1. Ép mía để lấy nước.\n2. Thêm đá viên và thưởng thức.', 'https://youtu.be/0yDsy2zwpCo?si=hN9YxVg1vIQvBBpr')">
+                Nước mía
+                <img src="https://tq2.mediacdn.vn/150157425591193600/2023/5/30/nuoc-mia-co-tac-dung-gi-va-co-nen-uong-nuoc-mia-hang-ngay-mia1-3056-1595406544-1597137317-308-width663height487-1685439067387323214110.jpg" alt="Nước mía" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Soda chanh', 'Nguyên liệu: \n- Nước soda\n- Chanh\n- Đường', '1. Vắt chanh vào ly soda.\n2. Thêm đường và khuấy đều.\n3. Thưởng thức.', 'https://youtu.be/MWEF6ZfywMY?si=Byy7ko3C1xJ_yvJ1')">
+                Soda chanh
+                <img src="https://bizweb.dktcdn.net/100/257/549/products/1513077.jpg?v=1652428430220" alt="Soda chanh" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Trà matcha', 'Nguyên liệu: \n- Bột matcha\n- Nước nóng\n- Sữa (nếu thích)', '1. Hòa bột matcha với nước nóng.\n2. Thêm sữa vào nếu thích.', 'https://youtu.be/ylUdr7zjtio?si=pwvoeq1ybAeN3rFg')">
+                Trà matcha
+                <img src="https://matchashop.vn/kcfinder/upload/images/matcha%20latte%20n%C3%B3ng.jpg" alt="Trà matcha" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Cocktail trái cây', 'Nguyên liệu: \n- Trái cây tươi\n- Nước ngọt\n- Đá viên', '1. Cắt trái cây thành miếng nhỏ.\n2. Cho vào ly và thêm nước ngọt.', 'https://youtu.be/LvgmodqQt8A?si=D-WAxwvUZpD1b4S1')">
+                Cocktail trái cây
+                <img src="https://www.huongnghiepaau.com/wp-content/uploads/2018/06/cocktail-trai-cay.jpg" alt="Cocktail trái cây" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Nước gừng chanh', 'Nguyên liệu: \n- Gừng\n- Chanh\n- Đường\n- Nước', '1. Nấu gừng với nước cho ra vị.\n2. Vắt chanh vào và thêm đường.', 'https://youtu.be/c3vUMHtQ7ls?si=xhIwaLC8lXizvFp3')">
+                Nước gừng chanh
+                <img src="https://toshiko.vn/storage/images/2021/07/nuoc-chanh-sa-giup-tang-cuong-mien-dich-1.jpg" alt="Nước gừng chanh" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Sữa đậu nành', 'Nguyên liệu: \n- Đậu nành\n- Đường\n- Nước', '1. Ngâm đậu nành qua đêm.\n2. Xay nhuyễn với nước và lọc lấy sữa.', 'https://youtu.be/UxVDtEoj7MQ?si=YtS6JvHrMp_rXfq_')">
+                Sữa đậu nành
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmsluzEJM8zRsK1EjOkSiyDGvsPh87yjUhqQ&s" alt="Sữa đậu nành" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Trà bạc hà', 'Nguyên liệu: \n- Trà (trà xanh hoặc trà đen)\n- Lá bạc hà\n- Đường', '1. Pha trà và để nguội.\n2. Thêm lá bạc hà và đường.', 'https://youtu.be/gFn3NrouLlQ?si=ru09XwumRrNx9j4X')">
+                Trà bạc hà
+                <img src="https://www.vinmec.com/static/uploads/20200711_162541_484784_trabacha_max_1800x1800_jpg_573a2f1e86.jpg" alt="Trà bạc hà" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Nước ép rau củ', 'Nguyên liệu: \n- Các loại rau củ (cà rốt, dưa leo, cần tây)\n- Đường (tuỳ thích)', '1. Ép rau củ để lấy nước.\n2. Thêm đường nếu thích.', 'https://youtu.be/EXvQh1jzyu4?si=yKMcbk_FxqNknwTN')">
+                Nước ép rau củ
+                <img src="https://thucphamdongxanh.com/wp-content/uploads/2020/05/cac-loai-nuoc-ep-rau-cu-qua-tot-cho-da.jpg" alt="Nước ép rau củ" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Nước dưa hấu', 'Nguyên liệu: \n- Dưa hấu\n- Đá viên', '1. Ép dưa hấu để lấy nước.\n2. Thêm đá viên và thưởng thức.', 'https://youtu.be/2m00FijZc6Q?si=1TOQC4MeIhZtF0Ls')">
+                Nước dưa hấu
+                <img src="https://dayphache.edu.vn/wp-content/uploads/2016/07/vodka-watermelon-cocktail.jpg" alt="Nước dưa hấu" style="width: 100%; height: 350px;">
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="section-wrapper" id="hoc-nau-che" style="display: none;">
+        <h2>Học Nấu Chè</h2>
+        <div class="grid-container">
+            <div class="grid-item" onclick="openModal('Chè ba màu', 'Nguyên liệu: \n- Đậu xanh\n- Đậu đỏ\n- Bột bánh lọt\n- Nước cốt dừa\n- Đường', '1. Nấu đậu xanh và đậu đỏ chín mềm.\n2. Nấu bột bánh lọt với nước để tạo sợi.\n3. Xếp các nguyên liệu vào chén, thêm nước cốt dừa và đường.', 'https://youtu.be/S-xBww-JRKA?si=_Feq-WfDxfQ2_mC-')">
+                Chè ba màu
+                <img src="https://bizweb.dktcdn.net/thumb/grande/100/004/714/articles/che-ba-mau-cach-lam-ngon-mieng-dep-mat-ngay-tai-nha.png?v=1592454972940" alt="Chè ba màu" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè đậu xanh', 'Nguyên liệu: \n- Đậu xanh\n- Đường\n- Nước cốt dừa\n- Muối\n- Lá dứa', '1. Ngâm đậu xanh trong nước khoảng 2-3 tiếng.\n2. Nấu đậu xanh với nước cho mềm, thêm đường và muối.\n3. Khi dùng, thêm nước cốt dừa.', 'https://youtu.be/5NRvE8HCPCk?si=Ffn8YaZzVZlXtRao')">
+                Chè đậu xanh
+                <img src="https://image.plo.vn/w1000/Uploaded/2024/wsxrzreyxq/2023_11_29/che-dau-xanh-2-404-3510.jpg.webp" alt="Chè đậu xanh" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè trôi nước', 'Nguyên liệu: \n- Bột nếp\n- Đậu xanh đã xay nhuyễn\n- Đường\n- Nước cốt dừa', '1. Nhào bột nếp với nước để tạo thành vỏ.\n2. Nhồi đậu xanh vào giữa, nặn thành viên.\n3. Luộc chè đến khi nổi, ăn kèm với nước cốt dừa.', 'https://youtu.be/mOWcjCoSzWM?si=fkdCXY4ez3dX0O_d')">
+                Chè trôi nước
+                <img src="https://blog.onelife.vn/wp-content/uploads/2021/10/cach-lam-che-troi-nuoc-nhan-djau-xanh-mon-trang-mieng-714299301970.jpg" alt="Chè trôi nước" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè khúc bạch', 'Nguyên liệu: \n- Bột gelatin\n- Sữa đặc\n- Đường\n- Hạnh nhân\n- Nước cốt dừa', '1. Hoà bột gelatin với nước và đun sôi.\n2. Thêm sữa đặc và đường vào hỗn hợp.\n3. Đổ vào khuôn, để đông rồi cắt thành hình khúc.', 'https://youtu.be/3wTFqVMiBx4?si=B1ZcWoUgB1E2vJio')">
+                Chè khúc bạch
+                <img src="https://anchay.cdn.vccloud.vn/wp-content/uploads/2021/11/che-khuc-bach-dung-gelatin-thumbnail.jpg" alt="Chè khúc bạch" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè sương sa', 'Nguyên liệu: \n- Bột năng\n- Nước cốt dừa\n- Đường\n- Trái cây tùy chọn', '1. Pha bột năng với nước để làm sương sa.\n2. Đun sôi nước với đường, cho sương sa vào.\n3. Thêm nước cốt dừa và trái cây.', 'https://youtu.be/3y5DmfflaYQ?si=weDouLlISC8na-Lq')">
+                Chè sương sa
+                <img src="https://dayphache.edu.vn/wp-content/uploads/2016/03/che-suong-sa-hat-giai-nhiet.jpg" alt="Chè sương sa" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè bắp', 'Nguyên liệu: \n- Ngô ngọt\n- Nước cốt dừa\n- Đường\n- Muối', '1. Luộc ngô rồi tách hạt.\n2. Nấu hạt ngô với nước và đường.\n3. Thêm nước cốt dừa và muối khi ăn.', 'https://youtu.be/2z2vhY3nwWk?si=CmVnY6gk0hWtGXo1')">
+                Chè bắp
+                <img src="https://blog.onelife.vn/wp-content/uploads/2021/10/cach-lam-che-bap-nuoc-cot-dua-beo-thom-mon-trang-mieng-743535065228.jpg" alt="Chè bắp" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè chuối', 'Nguyên liệu: \n- Chuối chín\n- Bột năng\n- Nước cốt dừa\n- Đường', '1. Nấu chuối với nước và đường.\n2. Cho bột năng vào nước, khuấy cho đến khi đặc lại.\n3. Thêm nước cốt dừa khi dùng.', 'https://youtu.be/OTYKj_V3MJY?si=UEO8q2418tfjoGWJ')">
+                Chè chuối
+                <img src="https://anchay.cdn.vccloud.vn/wp-content/uploads/2021/09/f3d62cec967b3f77eed7073c88a80bcd-16213407992881839040365.jpg" alt="Chè chuối" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè thập cẩm', 'Nguyên liệu: \n- Đậu xanh, đậu đỏ, đậu đen\n- Nước cốt dừa\n- Đường\n- Bột bánh lọt', '1. Nấu các loại đậu cho mềm.\n2. Nấu bột bánh lọt với nước.\n3. Xếp nguyên liệu vào chén, thêm nước cốt dừa và đường.', 'https://youtu.be/xwq7TLbmqbs?si=bLB-xul5Xd6FEBDf')">
+                Chè thập cẩm
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKZZwHb57eMvQpR6Oh1uknVSh9UqQCVHFghg&s" alt="Chè thập cẩm" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè hạt sen', 'Nguyên liệu: \n- Hạt sen\n- Đường\n- Nước cốt dừa\n- Muối', '1. Nấu hạt sen cho đến khi mềm.\n2. Thêm đường và muối vào hạt sen.\n3. Thêm nước cốt dừa khi dùng.', 'https://www.youtube.com/watch?v=pERxpxZjYMc')">
+                Chè hạt sen
+                <img src="https://cdn.tgdd.vn/Files/2017/06/17/993654/5-cach-nau-che-hat-sen-thanh-mat-cuc-don-gian-tai-nha-202302171412253448.jpg" alt="Chè hạt sen" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè vải', 'Nguyên liệu: \n- Vải thiều\n- Đường\n- Nước cốt dừa\n- Đậu xanh', '1. Nấu nước với đường cho sôi.\n2. Thêm vải và đậu xanh đã nấu chín.\n3. Thêm nước cốt dừa khi dùng.', 'https://youtu.be/pjUJhwLXAhM?si=JiF3EsVdkYYC-QvW')">
+                Chè vải
+                <img src="https://cdn.tgdd.vn/Files/2017/05/29/987245/cach-nau-che-vai-hat-sen-an-la-phai-khen-1-760x367.jpg" alt="Chè vải" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè ngô', 'Nguyên liệu: \n- Ngô ngọt\n- Đường\n- Nước cốt dừa', '1. Nấu ngô với đường cho đến khi mềm.\n2. Thêm nước cốt dừa vào chè.\n3. Dùng nóng hoặc lạnh tùy thích.', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL12ELjLrvyHxaDOEfViZngJmmqDRcDObrbg&s')">
+                Chè ngô
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLUX6-_gVcT70i4Lz_HaBCjEXVLQdjefvsTw&s" alt="Chè ngô" style="width: 100%; height: 350px">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè khoai môn', 'Nguyên liệu: \n- Khoai môn\n- Đường\n- Nước cốt dừa\n- Muối', '1. Nấu khoai môn cho đến khi mềm.\n2. Thêm đường và muối vào khoai môn.\n3. Thêm nước cốt dừa khi dùng.', 'https://youtu.be/WYUzRJNwRfE?si=WGgoFCSGWH5lo0XQ')">
+                Chè khoai môn
+                <img src="https://cdn.tgdd.vn/Files/2017/05/29/987245/cach-nau-che-vai-hat-sen-an-la-phai-khen-1-760x367.jpg" alt="Chè khoai môn" style="width: 100%; height: 350px;">
+            </div>
+            <div class="grid-item" onclick="openModal('Chè đậu đỏ', 'Nguyên liệu: \n- Đậu đỏ\n- Đường\n- Nước cốt dừa\n- Muối', '1. Ngâm đậu đỏ khoảng 4 tiếng.\n2. Nấu đậu đỏ cho đến khi mềm.\n3. Thêm đường và nước cốt dừa khi dùng.', 'https://youtu.be/zSe-WzrSR_Q?si=h8gi97DJj5WcrrYZ')">
+                Chè đậu đỏ
+                <img src="https://cdn.tuoitre.vn/471584752817336320/2024/8/10/che-dau-do-17232513561832116791685.png" alt="Chè đậu đỏ" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè sữa', 'Nguyên liệu: \n- Sữa đặc\n- Đường\n- Bột năng\n- Trái cây tùy chọn', '1. Nấu sữa đặc với nước và đường cho sôi.\n2. Pha bột năng với nước, khuấy đều rồi đổ vào nồi.\n3. Khuấy đến khi đặc lại và cho trái cây vào.', 'https://youtu.be/D63GXjXW3As?si=1yn_OPbX_ux8Nbi4')">
+                Chè sữa
+                <img src="https://afamilycdn.com/150157425591193600/2020/3/12/photo-1584017121898-1584017122196995281647.jpg" alt="Chè sữa" style="width: 100%; height: 350px;">
+            </div>
+            
+            <div class="grid-item" onclick="openModal('Chè bột lọc', 'Nguyên liệu: \n- Bột năng\n- Tôm khô\n- Nước cốt dừa\n- Đường', '1. Pha bột năng với nước, nhào thành bột.\n2. Nhồi tôm khô vào bột, tạo hình viên.\n3. Luộc đến khi viên bột nổi, ăn kèm với nước cốt dừa.', 'https://youtu.be/Mea82RGoCOM?si=3hhxYzgrup7DS5Nf')">
+                Chè bột lọc
+                <img src="https://www.btaskee.com/wp-content/uploads/2021/08/cach-nau-che-bot-loc.jpg" alt="Chè bột lọc" style="width: 100%; height: 350px;">
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <div class="section-wrapper" id="Khoa-day-nau-an" style="display: none;">
+        <h2>Danh mục khoá học</h2>
+        <div class="course-container">
+            <div class="course-item">
+                <img src="images/Ảnh 1.png" alt="Khóa học 1" />
+                <p>Khoá học sơ cấp</p>
+                <p>Giá: 5.000.000 VNĐ</p>
+            </div>
+            <div class="course-item">
+                <img src="images/Ảnh 2.png" alt="Khóa học 2" />
+                <p>Khoá học trung cấp</p>
+                <p>Giá: 50.000.000 VNĐ</p>
+            </div>
+            <div class="course-item">
+                <img src="images/Ảnh 3.png" alt="Khóa học 3" />
+                <p>Khoá học cao cấp</p>
+                <p>Giá: 400.000.000 VNĐ</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-details">
+                <h3 id="modal-title"></h3>
+                <div style="display: flex;">
+                    <div style="flex: 1;">
+                        <h4>Nguyên Liệu:</h4>
+                        <p id="modal-ingredients"></p>
+                    </div>
+                    <div style="flex: 1;">
+                        <h4>Cách Làm:</h4>
+                        <p id="modal-instructions"></p>
+                    </div>
+                </div>
+                <a id="modal-video-link" href="#" target="_blank" class="video-button">Xem Video Hướng Dẫn</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section-wrapper');
+            sections.forEach(section => {
+                if (section.id === sectionId) {
+                    section.style.display = 'block';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+        }
+
+        function openModal(title, ingredients, instructions, videoLink) {
+            document.getElementById('modal-title').innerText = title;
+            document.getElementById('modal-ingredients').innerText = ingredients;
+            document.getElementById('modal-instructions').innerText = instructions;
+            document.getElementById('modal-video-link').href = videoLink;
+            document.getElementById('modal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
